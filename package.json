@@ -1,0 +1,19 @@
+{
+  "name": "package",
+  "version": "1.0.0",
+  "description": "Chat Server",
+  "main": "ecosystem.config.js",
+  "dependencies": {
+    "express": "4.17.1",
+    "mysql2": "2.3.2",
+    "sequelize": "6.7.0",
+    "socket.io": "4.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Pablo Pizarro",
+  "license": "ISC"
+}
