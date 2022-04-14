@@ -33,7 +33,7 @@ ln -s /etc/nginx/sites-available/proxy.in /etc/nginx/sites-enabled/proxy.in
 nginx -t
 ```
 
-3 - Reiniciar Servicio
+7 - Reiniciar Servicio
 ```bash
 service nginx restart
 ```
@@ -90,5 +90,5 @@ pm2 start ecosystem.config.js --env development
 ```
 
 ```bash
-pm2 start ecosystem.config.js --env local
+pm2 start ecosystem.config.js --env localdev
 ```

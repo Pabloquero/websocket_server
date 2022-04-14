@@ -1,7 +1,7 @@
 module.exports = { apps : [{
     name      : 'Chat Server',
     script    : 'server.js',
-    env_local : {
+    env_localdev : {
       PORT: 3000,
       DB_SCHEME: 'DB_SCHEME',
       DB_USER: 'DB_USER',
