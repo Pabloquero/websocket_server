@@ -18,6 +18,7 @@ const RemoveSocket = require("./src/actions/remove-socket");
 
 var app = express();
 var http_server = http.createServer(app).listen(process.env.PORT);
+console.log("Chat Server Live!")
 
 function chatServer(http_server) {
     var io = socket(http_server, {
